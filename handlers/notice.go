@@ -33,13 +33,22 @@ func RecordNotice(ctx context.Context) {
 		return
 	}
 
+	var values []string
+
+	// signed
+	key := uid + "," + p.Id
+	signed, found := memCache.Get(key)
+	if found && signed.(bool) {
+		SendNormalResponse(ctx, values)
+		return
+	}
+
+	// check
 	notice, err := client.IfNotice(uid)
 	if err != nil {
 		SendResponse(ctx, http.StatusInternalServerError, "NoticeCheckFailed", err.Error())
 		return
 	}
-
-	var values []string
 	if notice {
 		sign_list, err := client.GetListSign(uid)
 		if err != nil {
@@ -48,6 +57,8 @@ func RecordNotice(ctx context.Context) {
 		}
 
 		values = noticeInfo(p, sign_list.Signs)
+	} else {
+		memCache.Set(key, true, 6*time.Hour)
 	}
 
 	SendNormalResponse(ctx, values)
