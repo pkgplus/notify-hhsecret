@@ -266,27 +266,27 @@
 		},
 		{
 			"ImportPath": "github.com/xuebing1110/notify-inspect/pkg/holiday",
-			"Rev": "3d319f443ca3588d0adb6b0cd957b100db6cdf4f"
+			"Rev": "a3f644d03b04028596d1fd4b756225ad04613172"
 		},
 		{
 			"ImportPath": "github.com/xuebing1110/notify-inspect/pkg/log",
-			"Rev": "3d319f443ca3588d0adb6b0cd957b100db6cdf4f"
+			"Rev": "a3f644d03b04028596d1fd4b756225ad04613172"
 		},
 		{
 			"ImportPath": "github.com/xuebing1110/notify-inspect/pkg/models",
-			"Rev": "3d319f443ca3588d0adb6b0cd957b100db6cdf4f"
+			"Rev": "a3f644d03b04028596d1fd4b756225ad04613172"
 		},
 		{
 			"ImportPath": "github.com/xuebing1110/notify-inspect/pkg/plugin",
-			"Rev": "3d319f443ca3588d0adb6b0cd957b100db6cdf4f"
+			"Rev": "a3f644d03b04028596d1fd4b756225ad04613172"
 		},
 		{
 			"ImportPath": "github.com/xuebing1110/notify-inspect/pkg/plugin/client",
-			"Rev": "3d319f443ca3588d0adb6b0cd957b100db6cdf4f"
+			"Rev": "a3f644d03b04028596d1fd4b756225ad04613172"
 		},
 		{
 			"ImportPath": "github.com/xuebing1110/notify-inspect/pkg/schedule/cron",
-			"Rev": "3d319f443ca3588d0adb6b0cd957b100db6cdf4f"
+			"Rev": "a3f644d03b04028596d1fd4b756225ad04613172"
 		},
 		{
 			"ImportPath": "github.com/xuebing1110/notify/pkg/models",
