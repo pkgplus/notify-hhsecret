@@ -266,27 +266,27 @@
 		},
 		{
 			"ImportPath": "github.com/xuebing1110/notify-inspect/pkg/holiday",
-			"Rev": "a3f644d03b04028596d1fd4b756225ad04613172"
+			"Rev": "f03fd92c1df2221d425fb178a7254bfc513e2c3a"
 		},
 		{
 			"ImportPath": "github.com/xuebing1110/notify-inspect/pkg/log",
-			"Rev": "a3f644d03b04028596d1fd4b756225ad04613172"
+			"Rev": "f03fd92c1df2221d425fb178a7254bfc513e2c3a"
 		},
 		{
 			"ImportPath": "github.com/xuebing1110/notify-inspect/pkg/models",
-			"Rev": "a3f644d03b04028596d1fd4b756225ad04613172"
+			"Rev": "f03fd92c1df2221d425fb178a7254bfc513e2c3a"
 		},
 		{
 			"ImportPath": "github.com/xuebing1110/notify-inspect/pkg/plugin",
-			"Rev": "a3f644d03b04028596d1fd4b756225ad04613172"
+			"Rev": "f03fd92c1df2221d425fb178a7254bfc513e2c3a"
 		},
 		{
 			"ImportPath": "github.com/xuebing1110/notify-inspect/pkg/plugin/client",
-			"Rev": "a3f644d03b04028596d1fd4b756225ad04613172"
+			"Rev": "f03fd92c1df2221d425fb178a7254bfc513e2c3a"
 		},
 		{
 			"ImportPath": "github.com/xuebing1110/notify-inspect/pkg/schedule/cron",
-			"Rev": "a3f644d03b04028596d1fd4b756225ad04613172"
+			"Rev": "f03fd92c1df2221d425fb178a7254bfc513e2c3a"
 		},
 		{
 			"ImportPath": "github.com/xuebing1110/notify/pkg/models",
