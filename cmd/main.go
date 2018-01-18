@@ -6,7 +6,7 @@ import (
 	"github.com/kataras/iris"
 	"github.com/xuebing1110/notify-hhsecret/app"
 
-	_ "github.com/xuebing1110/notify-hhsecret/router/v1"
+	_ "github.com/xuebing1110/notify-hhsecret/router/v2"
 )
 
 func main() {
