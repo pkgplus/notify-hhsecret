@@ -8,6 +8,7 @@ import (
 	"github.com/bingbaba/hhsecret/pkg/client"
 	"github.com/kataras/iris/context"
 	"github.com/patrickmn/go-cache"
+	"github.com/xuebing1110/notify-inspect/pkg/log"
 	"github.com/xuebing1110/notify-inspect/pkg/plugin"
 )
 
@@ -44,6 +45,7 @@ func RecordNotice(ctx context.Context) {
 	}
 
 	// check
+	log.GlobalLogger.Infof("get %s notice...", uid)
 	notice, err := client.IfNotice(uid)
 	if err != nil {
 		SendResponse(ctx, http.StatusInternalServerError, "NoticeCheckFailed", err.Error())
