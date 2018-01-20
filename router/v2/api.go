@@ -9,7 +9,7 @@ var api router.Party
 
 func init() {
 	irisApp := app.GetIrisApp()
-	api = irisApp.Party("/api/v1/plugins/" + app.APP_NAME)
+	api = irisApp.Party("/api/v2/plugins/" + app.APP_NAME)
 
 	plugin()
 }
