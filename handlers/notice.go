@@ -51,6 +51,7 @@ func RecordNotice(ctx context.Context) {
 		SendResponse(ctx, http.StatusInternalServerError, "NoticeCheckFailed", err.Error())
 		return
 	}
+	log.GlobalLogger.Infof("get %s notice %v", uid, notice)
 	if notice {
 		sign_list, err := client.GetListSign(uid)
 		if err != nil {
