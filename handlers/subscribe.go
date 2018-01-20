@@ -8,15 +8,15 @@ import (
 )
 
 func Subscribe(ctx context.Context) {
-	p := new(plugin.Plugin)
-	err := ctx.ReadJSON(p)
+	s := new(plugin.Subscribe)
+	err := ctx.ReadJSON(s)
 	if err != nil {
 		SendResponse(ctx, http.StatusBadRequest, "ParseJsonFailed", err.Error())
 		return
 	}
 
-	uid := p.GetParamValue("uid")
-	pwd := p.GetParamValue("pwd")
+	uid := s.GetParamValue("uid")
+	pwd := s.GetParamValue("pwd")
 	if uid == "" || pwd == "" {
 		SendResponse(ctx, http.StatusBadRequest, "ParamMiss", "uid and pwd was required")
 		return

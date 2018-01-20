@@ -20,7 +20,7 @@ func init() {
 }
 
 func RecordNotice(ctx context.Context) {
-	p := new(plugin.Plugin)
+	p := new(plugin.PluginRecord)
 	err := ctx.ReadJSON(p)
 	if err != nil {
 		SendResponse(ctx, http.StatusBadRequest, "ParseJsonFailed", err.Error())
@@ -64,10 +64,10 @@ func RecordNotice(ctx context.Context) {
 	SendNormalResponse(ctx, values)
 }
 
-func noticeInfo(p *plugin.Plugin, signs []*hhsecret.Sign) []string {
+func noticeInfo(p *plugin.PluginRecord, signs []*hhsecret.Sign) []string {
 
 	uid := p.GetParamValue("uid")
-	tip := p.GetRecordParamValue("tip")
+	tip := p.GetParamValue("tip")
 	if tip == "" {
 		tip = "打卡提醒"
 	}
