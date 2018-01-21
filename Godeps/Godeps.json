@@ -37,11 +37,11 @@
 		},
 		{
 			"ImportPath": "github.com/bingbaba/hhsecret",
-			"Rev": "9f83a85d926e2bb2c0b1034d1223e5913b1b901f"
+			"Rev": "85ad39c4d53ed342ebd7555eb6de170ab75df763"
 		},
 		{
 			"ImportPath": "github.com/bingbaba/hhsecret/pkg/client",
-			"Rev": "9f83a85d926e2bb2c0b1034d1223e5913b1b901f"
+			"Rev": "85ad39c4d53ed342ebd7555eb6de170ab75df763"
 		},
 		{
 			"ImportPath": "github.com/eknkc/amber",
@@ -266,27 +266,27 @@
 		},
 		{
 			"ImportPath": "github.com/xuebing1110/notify-inspect/pkg/holiday",
-			"Rev": "52458e7b4252de8bed8cec738b6cbf10dd317c75"
+			"Rev": "8fcb170ae1a71ae1a6ef6d34ca38e55386862914"
 		},
 		{
 			"ImportPath": "github.com/xuebing1110/notify-inspect/pkg/log",
-			"Rev": "52458e7b4252de8bed8cec738b6cbf10dd317c75"
+			"Rev": "8fcb170ae1a71ae1a6ef6d34ca38e55386862914"
 		},
 		{
 			"ImportPath": "github.com/xuebing1110/notify-inspect/pkg/models",
-			"Rev": "52458e7b4252de8bed8cec738b6cbf10dd317c75"
+			"Rev": "8fcb170ae1a71ae1a6ef6d34ca38e55386862914"
 		},
 		{
 			"ImportPath": "github.com/xuebing1110/notify-inspect/pkg/plugin",
-			"Rev": "52458e7b4252de8bed8cec738b6cbf10dd317c75"
+			"Rev": "8fcb170ae1a71ae1a6ef6d34ca38e55386862914"
 		},
 		{
 			"ImportPath": "github.com/xuebing1110/notify-inspect/pkg/plugin/client",
-			"Rev": "52458e7b4252de8bed8cec738b6cbf10dd317c75"
+			"Rev": "8fcb170ae1a71ae1a6ef6d34ca38e55386862914"
 		},
 		{
 			"ImportPath": "github.com/xuebing1110/notify-inspect/pkg/schedule/cron",
-			"Rev": "52458e7b4252de8bed8cec738b6cbf10dd317c75"
+			"Rev": "8fcb170ae1a71ae1a6ef6d34ca38e55386862914"
 		},
 		{
 			"ImportPath": "github.com/xuebing1110/notify/pkg/models",
