@@ -37,11 +37,11 @@
 		},
 		{
 			"ImportPath": "github.com/bingbaba/hhsecret",
-			"Rev": "cbff06ebc13e17206def3c7f41428fb08224d00b"
+			"Rev": "501c1aa84703fa076656ffffba9a05dbaf05401c"
 		},
 		{
 			"ImportPath": "github.com/bingbaba/hhsecret/pkg/client",
-			"Rev": "cbff06ebc13e17206def3c7f41428fb08224d00b"
+			"Rev": "501c1aa84703fa076656ffffba9a05dbaf05401c"
 		},
 		{
 			"ImportPath": "github.com/eknkc/amber",

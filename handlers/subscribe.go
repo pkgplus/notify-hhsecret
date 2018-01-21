@@ -22,10 +22,10 @@ func Subscribe(ctx context.Context) {
 		return
 	}
 
-	login_data, err := client.Login(uid, pwd)
+	err = client.Login(uid, pwd)
 	if err != nil {
 		SendResponse(ctx, http.StatusInternalServerError, "LoginFailed", err.Error())
 	} else {
-		SendNormalResponse(ctx, login_data)
+		SendNormalResponse(ctx, nil)
 	}
 }
