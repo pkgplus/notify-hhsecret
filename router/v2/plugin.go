@@ -6,5 +6,6 @@ import (
 
 func plugin() {
 	api.Post("/sub/users", handlers.Subscribe)
+	api.Get("/sub/users/:userid", handlers.GetSubscribe)
 	api.Post("/sub/records", handlers.RecordNotice)
 }

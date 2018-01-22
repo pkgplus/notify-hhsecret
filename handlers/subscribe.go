@@ -29,3 +29,18 @@ func Subscribe(ctx context.Context) {
 		SendNormalResponse(ctx, nil)
 	}
 }
+
+func GetSubscribe(ctx context.Context) {
+	uid := ctx.Params().Get("uid")
+	if uid == "" {
+		SendResponse(ctx, http.StatusBadRequest, "ParamMissing", "uid param was required")
+		return
+	}
+
+	login_data, err := client.GetLoginInfo(uid)
+	if err != nil {
+		SendResponse(ctx, http.StatusInternalServerError, "LoginFailed", err.Error())
+	} else {
+		SendNormalResponse(ctx, login_data)
+	}
+}

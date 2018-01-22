@@ -37,11 +37,11 @@
 		},
 		{
 			"ImportPath": "github.com/bingbaba/hhsecret",
-			"Rev": "501c1aa84703fa076656ffffba9a05dbaf05401c"
+			"Rev": "68af0e041dba9a92db49f8897cce093d61a6a62e"
 		},
 		{
 			"ImportPath": "github.com/bingbaba/hhsecret/pkg/client",
-			"Rev": "501c1aa84703fa076656ffffba9a05dbaf05401c"
+			"Rev": "68af0e041dba9a92db49f8897cce093d61a6a62e"
 		},
 		{
 			"ImportPath": "github.com/eknkc/amber",
@@ -266,35 +266,35 @@
 		},
 		{
 			"ImportPath": "github.com/xuebing1110/notify-inspect/pkg/holiday",
-			"Rev": "8fcb170ae1a71ae1a6ef6d34ca38e55386862914"
+			"Rev": "dc59376eb5f03822ad1a72cc536dfb84993384bb"
 		},
 		{
 			"ImportPath": "github.com/xuebing1110/notify-inspect/pkg/log",
-			"Rev": "8fcb170ae1a71ae1a6ef6d34ca38e55386862914"
+			"Rev": "dc59376eb5f03822ad1a72cc536dfb84993384bb"
 		},
 		{
 			"ImportPath": "github.com/xuebing1110/notify-inspect/pkg/models",
-			"Rev": "8fcb170ae1a71ae1a6ef6d34ca38e55386862914"
+			"Rev": "dc59376eb5f03822ad1a72cc536dfb84993384bb"
 		},
 		{
 			"ImportPath": "github.com/xuebing1110/notify-inspect/pkg/plugin",
-			"Rev": "8fcb170ae1a71ae1a6ef6d34ca38e55386862914"
+			"Rev": "dc59376eb5f03822ad1a72cc536dfb84993384bb"
 		},
 		{
 			"ImportPath": "github.com/xuebing1110/notify-inspect/pkg/plugin/client",
-			"Rev": "8fcb170ae1a71ae1a6ef6d34ca38e55386862914"
+			"Rev": "dc59376eb5f03822ad1a72cc536dfb84993384bb"
 		},
 		{
 			"ImportPath": "github.com/xuebing1110/notify-inspect/pkg/schedule/cron",
-			"Rev": "8fcb170ae1a71ae1a6ef6d34ca38e55386862914"
+			"Rev": "dc59376eb5f03822ad1a72cc536dfb84993384bb"
 		},
 		{
 			"ImportPath": "github.com/xuebing1110/notify/pkg/models",
-			"Rev": "064fb7e6b8ba25df4b3cd63f55473189dbdceb1c"
+			"Rev": "0407e71aa79b7caeba694ade14c13332aa278d7e"
 		},
 		{
 			"ImportPath": "github.com/xuebing1110/notify/pkg/wechat/models",
-			"Rev": "064fb7e6b8ba25df4b3cd63f55473189dbdceb1c"
+			"Rev": "0407e71aa79b7caeba694ade14c13332aa278d7e"
 		},
 		{
 			"ImportPath": "golang.org/x/crypto/acme",
