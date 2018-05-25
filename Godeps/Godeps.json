@@ -266,27 +266,27 @@
 		},
 		{
 			"ImportPath": "github.com/xuebing1110/notify-inspect/pkg/holiday",
-			"Rev": "59c112525b7d93151e7f1900b7a7617354f91788"
+			"Rev": "2e4c1576441339d8ffa7372b26993fece7296da3"
 		},
 		{
 			"ImportPath": "github.com/xuebing1110/notify-inspect/pkg/log",
-			"Rev": "59c112525b7d93151e7f1900b7a7617354f91788"
+			"Rev": "2e4c1576441339d8ffa7372b26993fece7296da3"
 		},
 		{
 			"ImportPath": "github.com/xuebing1110/notify-inspect/pkg/models",
-			"Rev": "59c112525b7d93151e7f1900b7a7617354f91788"
+			"Rev": "2e4c1576441339d8ffa7372b26993fece7296da3"
 		},
 		{
 			"ImportPath": "github.com/xuebing1110/notify-inspect/pkg/plugin",
-			"Rev": "59c112525b7d93151e7f1900b7a7617354f91788"
+			"Rev": "2e4c1576441339d8ffa7372b26993fece7296da3"
 		},
 		{
 			"ImportPath": "github.com/xuebing1110/notify-inspect/pkg/plugin/client",
-			"Rev": "59c112525b7d93151e7f1900b7a7617354f91788"
+			"Rev": "2e4c1576441339d8ffa7372b26993fece7296da3"
 		},
 		{
 			"ImportPath": "github.com/xuebing1110/notify-inspect/pkg/schedule/cron",
-			"Rev": "59c112525b7d93151e7f1900b7a7617354f91788"
+			"Rev": "2e4c1576441339d8ffa7372b26993fece7296da3"
 		},
 		{
 			"ImportPath": "github.com/xuebing1110/notify/pkg/models",
@@ -318,7 +318,8 @@
 		},
 		{
 			"ImportPath": "gopkg.in/yaml.v2",
-			"Rev": "cd8b52f8269e0feb286dfeef29f8fe4d5b397e0b"
+			"Comment": "v2.2.1",
+			"Rev": "5420a8b6744d3b0345ab293f6fcba19c978f1183"
 		}
 	]
 }
