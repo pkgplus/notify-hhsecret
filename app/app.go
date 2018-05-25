@@ -35,7 +35,7 @@ func register() error {
 	p := &plugin.Plugin{
 		Id:            APP_NAME,
 		Description:   "懒人打卡",
-		ServeAddr:     "https://m.bingbaba.com/api/v2/plugins/" + APP_NAME,
+		ServerAddr:    "https://m.bingbaba.com/api/v2/plugins/" + APP_NAME,
 		TemplateMsgId: "8U98v1g7PWLZ5p4jbWNSpY5dr-hhG5kVuMAUew4PHnY",
 		Emphasis:      "5",
 		Params: []plugin.PluginParam{
