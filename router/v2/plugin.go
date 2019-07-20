@@ -6,6 +6,6 @@ import (
 
 func init() {
 	api.POST("/sub/users", handlers.Subscribe)
-	api.GET("/sub/users/:userid", handlers.GetSubscribe)
+	api.GET("/sub/users/:uid", handlers.GetSubscribe)
 	api.POST("/sub/records", handlers.RecordNotice)
 }
