@@ -2,14 +2,14 @@ package handlers
 
 import (
 	"github.com/bingbaba/hhsecret/pkg/client"
-	"github.com/kataras/iris/context"
+	"github.com/gin-gonic/gin"
 	"github.com/xuebing1110/notify-inspect/pkg/plugin"
 	"net/http"
 )
 
-func Subscribe(ctx context.Context) {
+func Subscribe(ctx *gin.Context) {
 	s := new(plugin.Subscribe)
-	err := ctx.ReadJSON(s)
+	err := ctx.BindJSON(s)
 	if err != nil {
 		SendResponse(ctx, http.StatusBadRequest, "ParseJsonFailed", err.Error())
 		return
@@ -30,8 +30,8 @@ func Subscribe(ctx context.Context) {
 	}
 }
 
-func GetSubscribe(ctx context.Context) {
-	uid := ctx.Params().Get("uid")
+func GetSubscribe(ctx *gin.Context) {
+	uid := ctx.Param("uid")
 	if uid == "" {
 		SendResponse(ctx, http.StatusBadRequest, "ParamMissing", "uid param was required")
 		return

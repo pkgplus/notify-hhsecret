@@ -4,8 +4,8 @@ import (
 	"github.com/xuebing1110/notify-hhsecret/handlers"
 )
 
-func plugin() {
-	api.Post("/sub/users", handlers.Subscribe)
-	api.Get("/sub/users/:userid", handlers.GetSubscribe)
-	api.Post("/sub/records", handlers.RecordNotice)
+func init() {
+	api.POST("/sub/users", handlers.Subscribe)
+	api.GET("/sub/users/:userid", handlers.GetSubscribe)
+	api.POST("/sub/records", handlers.RecordNotice)
 }
